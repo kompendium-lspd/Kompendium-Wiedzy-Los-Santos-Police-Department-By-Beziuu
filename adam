@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>𝔎𝔬𝔪𝔭𝔢𝔫𝔡𝔦𝔲𝔪 𝔚𝔦𝔢𝔡𝔷𝔶 LSPD</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 450px;
+            height: auto;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            margin-top: 40px;
+        }
+
+        p {
+            max-width: 900px;
+            margin: 20px auto;
+            line-height: 1.6;
+        }
+
+        iframe {
+            display: block;
+            margin: 30px auto;
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    ║───────────────────────────────────────────────────────────────────────────────────────────────────║
+
+    <br><br>
+
+    <!-- LOGO -->
+    <img src="kompendium_lspd.jpg" alt="Kompendium LSPD">
+
+    <header>
+        <h1>╔════≫──────๑ Kompendium Wiedzy LSPD ๑──────≪════╗</h1>
+        ║───────────────────────────────────────────────────────────────────────────────────────────────────║
+    </header>
+
+    <br>
+
+    <!-- MENU -->
+    <nav>
+        ║─────────────────────────────────────────────────────────────────────║<br>
+        <a href="index.html">𝒲𝓅𝓇𝑜𝓌𝒶𝒹𝓏𝑒𝓃𝒾𝑒</a> |
+        <a href="informacje.html">informacje</a> |
+        <a href="ciekawostki.html">ciekawostki</a> |
+        <a href="Manewry.html">ℳ𝒶𝓃𝑒𝓌𝓇𝓎</a>
+        <br>║─────────────────────────────────────────────────────────────────────║
+    </nav>
+
+    <!-- WPROWADZENIE -->
+    <section>
+        <h2> ╭━━━ Jednostka Adam ━━━╮</h2>
+
+        <p>
+            <b>➔ Jednostka patrolowa ADAM
+Jednostka „Adam” to główna jednostka patrolowa LSPD, odpowiedzialna za codzienne utrzymanie porządku w mieście.
+Jej podstawowe radiowozy to Ford Crown Victoria, lub Vapid Stanier. Jednostka reaguje na zgłoszenia obywateli, kontroluje ruch drogowy, prowadzi działania prewencyjne i zabezpiecza miejsca zdarzeń.
+\Stanowi pierwszą linię działania i główny kontakt policji z mieszkańcami.   
+        </p>
+
+         <p>
+             <br>║─────────────────────────────────────────────────────────────────────────────────────────║
+             
+                    ➔ Tutejsza strona przedstawi ci najważniejsze informacje, oraz strategie do odgrywania służby porządkowej w świecie FiveM
+           
+             <br>║─────────────────────────────────────────────────────────────────────────────────────────║
+          </p>
+    </section>
+
+    <!-- 2 zdjęcie -->
+
+    
+       ║───────────────────────────────────────────────────────────────────────────────────────────────────║
+
+    <br><br>
+
+    <!-- LOGO -->
+    <img src="image.png" alt="image">
+
+    <header>
+
+    ║───────────────────────────────────────────────────────────────────────────────────────────────────║
+
+</div>
+
+</body>
+</html>
