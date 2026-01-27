@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>𝔎𝔬𝔪𝔭𝔢𝔫𝔡𝔦𝔲𝔪 𝔚𝔦𝔢𝔡𝔷𝔶 LSPD</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 450px;
+            height: auto;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            margin-top: 40px;
+        }
+
+        p {
+            max-width: 900px;
+            margin: 20px auto;
+            line-height: 1.6;
+        }
+
+        iframe {
+            display: block;
+            margin: 30px auto;
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    ║───────────────────────────────────────────────────────────────────────────────────────────────────║
+
+    <br><br>
+
+    <!-- LOGO -->
+    <img src="kompendium_lspd.jpg" alt="Kompendium LSPD">
+
+    <header>
+        <h1>╔════≫──────๑ Kompendium Wiedzy LSPD ๑──────≪════╗</h1>
+        ║───────────────────────────────────────────────────────────────────────────────────────────────────║
+    </header>
+
+    <br>
+
+    <!-- MENU -->
+    <nav>
+        ║─────────────────────────────────────────────────────────────────────║<br>
+        <a href="index.html">Cofnij</a> |
+        <br>║─────────────────────────────────────────────────────────────────────║
+    </nav>
+
+    <!-- WPROWADZENIE -->
+    <section>
+        <h2> ╭━━━ 𝒲𝓅𝓇𝑜𝓌𝒶𝒹𝓏𝑒𝓃𝒾𝑒 ━━━╮</h2>
+
+        <p>
+            <b>➔ Los Santos Police Department (LSPD)</b> to główna formacja policyjna
+            działająca na terenie miasta Los Santos. Frakcja kieruje się głównym założeniem, które brzmi: "to serve and protect" ["Chronić i służyć"]. Jej zadaniem jest utrzymanie
+           nieustanne egzekwowanie prawa oraz zapewnienie bezpieczeństwa, oraz konfortu pobytu
+            mieszkańcom i odwiedzającym miasto.    
+        </p>
+
+         <p>
+<br>║─────────────────────────────────────────────────────────────────────────────────────────║
+             
+                    ➔ Tutejsza strona przedstawi ci najważniejsze informacje, oraz strategie do odgrywania służby porządkowej w świecie FiveM
+           
+ <br>║─────────────────────────────────────────────────────────────────────────────────────────║
+          </p>
+    </section>
+
+    <!-- 2 zdjęcie -->
+
+    
+       ║───────────────────────────────────────────────────────────────────────────────────────────────────║
+
+    <br><br>
+
+    <!-- LOGO -->
+    <img src="LSPD_logo.png" alt="image">
+
+    <header>
+
+    ║───────────────────────────────────────────────────────────────────────────────────────────────────║<br>
+        <footer style="text-align: center; color: white; margin-top: 50px; padding: 20px; background-color: black; font-family: Arial, sans-serif;">
+    <p>&copy; 2026 Kompendium Wiedzy LSPD. Wszelkie prawa zastrzeżone.</p>
+    <p>Wszystkie treści, materiały i zasoby prezentowane na tej stronie zostały stworzone przez <strong>𝕭𝖊𝖟𝖎𝖚</strong> oraz grono administracji serwera <strong>Kompendium Wiedzy Los Santos Police Department</strong> i są chronione prawami autorskimi. Kopiowanie, powielanie lub wykorzystywanie zawartości bez zgody właściciela jest zabronione.</p>
+    <p>Wszelkie pytania dotyczące praw autorskich lub treści znajdujących się na stronie prosimy kierować na nasz Discord: 
+        <a href="https://discord.gg/f8SpGvwxFw" target="_blank" style="color: #7289da; text-decoration: none;">https://discord.gg/f8SpGvwxFw</a>
+    </p>
+</footer>
+
+
+</div>
+
+</body>
+</html>
