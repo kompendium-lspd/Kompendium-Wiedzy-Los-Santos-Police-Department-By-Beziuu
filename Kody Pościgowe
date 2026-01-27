@@ -23,6 +23,7 @@
         img {
             max-width: 450px;
             height: auto;
+            margin-top: 20px;
         }
 
         nav a {
@@ -42,6 +43,35 @@
             padding: 25px;
             border-radius: 8px;
         }
+
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #3a2f28;
+        }
+
+        th {
+            background-color: #3a2f28;
+            color: #fff;
+            text-align: center;
+        }
+
+        td.color-box {
+            width: 120px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .black { background-color: black; color: white; }
+        .red { background-color: red; color: white; }
+        .yellow { background-color: yellow; color: black; }
+        .green { background-color: green; color: white; }
 
         footer {
             text-align: center;
@@ -77,32 +107,35 @@
         <br>║─────────────────────────────────────────────────────────────────────║
     </nav>
 
-    <!-- JEDNOSTKI POŚCIGOWE -->
+    <!-- KODY POŚCIGOWE -->
     <section>
         <h2>╭━━━ Kody Pościgowe ━━━╮</h2>
 
- <p>
-            <b>➔ Kody Pościgowe</b><br><br>
- ➔ Kod czarny ⚫﻿ - Kod wyjątkowy. W tym momencie funkcjonariusze używają wszelkich dostępnych środków do zatrzymania uciekiniera, również w ostateczności broni palnej. Nakładamy go w momencie, gdy uciekający stwarza bezpośrednie zagrożenie dla funkcjonariuszy, bądź obywateli. Przykładem może być użycie broni w kierunku funkcjonariuszy. 
-﻿
-➔Kod czerwony 🔴﻿ - Jeden z wyższych kodów. W tym momencie pościg nabiera wysoki priorytet aresztowania uciekającego.  Nakładany jest na uciekającego poprzez:  - 10 minutowy i wzwyż pościg - Wielokrotne złamanie przepisów drogowych - Bezpośrednie stwarzanie zagrożenia w ruchu lądowym - Wszelkiego rodzaju przesiadki - Jeżeli mamy pewność iż w środku znajduje się porwana osoba - Osoba uciekająca porusza się skradzionym pojazdem frakcyjnym - Bądź inne podane powody przez SV. Warunki muszą być spełnione minimum 3, razem + trwanie pościgu. Kod ten zezwala na wykonywanie wszelkich manewrów w kierunku uciekającego. Oczywiście za autoryzacją SV
-﻿
-➔ Kod żółty 🟡﻿ - Kod zagrożenia pościgu niższego stopnia. Nakładamy go, gdy: - Uciekający ucieka od około 5 minut - Licznie przekracza dozwoloną prędkość - Wykonuje gwałtowne manewry pojazdem, powodując zagrożenie w ruchu lądowym 
- 
-Ulatujące się groźby w kierunku funkcjonariuszy, lub obywateli - Liczne łamanie praw ruchu lądowego itp. Kod ten zezwala na podstawowe manewry; typu - pit, nieruchoma. Aczkolwiek wszystko zależy od SV akcji.
-﻿
-➔ Kod zielony 🟢﻿ - Najniższy kod pościgowy. Z tym kodem powinien ruszać każdy pościg ( o ile nie ma innych wytycznych na mieście, bądź SV nie wytyczył konsekwencji podczas przykładowych  negocjacji ). Kod ten nie nakłada SV, gdyż jest od nakładany automatycznie, jedynie SV może go wznieść. Kod ten pozwala na wykonywanie manewru podstawowego typu: Nieruchoma. Aczkolwiek tak jak we wszystkich. Manewry zależą od SV i jego autoryzacji
-        </p>
-
-        <br>
-
-        ║─────────────────────────────────────────────────────────────────────║<br>
+        <table>
+            <tr>
+                <th>Kod</th>
+                <th>Opis</th>
+            </tr>
+            <tr>
+                <td class="color-box black">⚫ Kod czarny</td>
+                <td>Kod wyjątkowy. Funkcjonariusze używają wszelkich dostępnych środków do zatrzymania uciekiniera, włącznie z użyciem broni palnej. Stosowany, gdy uciekający stwarza bezpośrednie zagrożenie dla funkcjonariuszy lub obywateli.</td>
+            </tr>
+            <tr>
+                <td class="color-box red">🔴 Kod czerwony</td>
+                <td>Wysoki priorytet pościgu. Nakładany, gdy uciekający stwarza poważne zagrożenie lub złamał przepisy wielokrotnie, pościg trwa 10 minut lub dłużej, osoba porwana w pojeździe, przesiadki, lub inne wskazane powody przez SV. Pozwala wykonywać wszelkie manewry za autoryzacją SV.</td>
+            </tr>
+            <tr>
+                <td class="color-box yellow">🟡 Kod żółty</td>
+                <td>Kod niższego zagrożenia. Nakładany, gdy uciekający ucieka od około 5 minut, przekracza dozwoloną prędkość lub wykonuje gwałtowne manewry stwarzające zagrożenie w ruchu drogowym. Zezwala na podstawowe manewry, np. PIT, Nieruchoma, według wytycznych SV.</td>
+            </tr>
+            <tr>
+                <td class="color-box green">🟢 Kod zielony</td>
+                <td>Najniższy kod pościgowy. Nakładany automatycznie, może zostać wzniecony przez SV. Zezwala na podstawowe manewry typu Nieruchoma, w zależności od autoryzacji SV.</td>
+            </tr>
+        </table>
 
         <img src="radio.png" alt="Jednostki pościgowe">
 
-        <br>
-
-        ║─────────────────────────────────────────────────────────────────────║<br>
     </section>
 
     <!-- STOPKA -->
