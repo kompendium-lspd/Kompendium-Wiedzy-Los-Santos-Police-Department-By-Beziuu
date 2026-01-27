@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>𝔎𝔬𝔪𝔭𝔢𝔫𝔡𝔦𝔲𝔪 𝔚𝔦𝔢𝔡𝔷𝔶 LSPD</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #efe6da; /* jasny brąz */
+            color: #2a2420;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            text-align: center;
+            background-color: #f6efe7;
+        }
+
+        img {
+            max-width: 450px;
+            height: auto;
+        }
+
+        nav a {
+            color: #3a2f28;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-top: 40px;
+            background-color: #f1e8dd;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .hierarchy-box {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid #c9b9a6;
+            border-radius: 10px;
+            background-color: #f7f1ea;
+        }
+
+        .hierarchy-section {
+            background-color: #d8c8b4; /* jasny brąz */
+            color: #2a2420;
+            padding: 10px;
+            font-weight: bold;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+
+        .hierarchy-item {
+            margin: 6px 0;
+        }
+
+        footer {
+            text-align: center;
+            color: #2a2420;
+            margin-top: 60px;
+            padding: 25px;
+            background-color: #e6dacb;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    ║───────────────────────────────────────────────────────────────────────────────────────────────────║
+
+    <br><br>
+
+    <!-- LOGO -->
+    <img src="kompendium_lspd.png" alt="Kompendium LSPD">
+
+    <header>
+        <h1>╔════≫──────๑ Kompendium Wiedzy LSPD ๑──────≪════╗</h1>
+        ║───────────────────────────────────────────────────────────────────────────────────────────────────║
+    </header>
+
+    <br>
+
+    <!-- MENU -->
+    <nav>
+        ║─────────────────────────────────────────────────────────────────────║<br>
+        <a href="index.html">Cofnij</a>
+        <br>║─────────────────────────────────────────────────────────────────────║
+    </nav>
+
+    <!-- PP -->
+   <p>
+          # PP <:lspd:1407122135268331671>  
+PP - Pierwsza pomoc <:LSPD67:1421463400344719479> 
+**Pierwsza pomoc [ PP ] - Jest to zespół czynności podejmowanych w celu ratowania życia lub zdrowia osoby poszkodowanej, zanim udzielona zostanie pomoc medyczna przez wykwalifikowane służby (np. pogotowie ratunkowe). Szkolenie PP uczy funkcjonariuszy, jak udzielać pierwszej pomocy osobie poszkodowanej w trakcie akcji **
+
+# Rana  🤕 
+Rana to przerwanie ciągłości skóry, błon śluzowych lub tkanek głębiej położonych, spowodowane działaniem czynnika zewnętrznego (np. mechanicznego, chemicznego, termicznego).
+
+- Rodzaje ran: 
+> 🔹Kłuta, 🔹postrzałowa, 🔹ciętą, 🔹kąsana, 🔹złamanie, 🔹stłuczenia, 🔹miażdżona, 🔹tłuszczona, 🔹szarpana 
+
+# IFAK 
+**- IFAK to skrót od Individual First Aid Kit, czyli Indywidualny Zestaw Pierwszej Pomocy. Jest to kompaktowy zestaw medyczny przeznaczony do szybkiego udzielania pomocy w sytuacjach zagrożenia życia – zwłaszcza w warunkach bojowych, survivalowych lub taktycznych.**
+- Wyposażenie IFAK: 
+
+> opaski uciskowe (np. CAT, SOFT-T)
+> 
+> 
+> opatrunki hemostatyczne (np. Celox, QuikClot)
+> 
+> 
+> izraelskie opatrunki uciskowe
+> 
+> 
+> nożyczki ratownicze
+> 
+> 
+> rurki nosowo-gardłowe (NPA)
+> 
+> 
+> rękawiczki jednorazowe
+> 
+> 
+> marker do zapisywania czasu założenia opaski
+> 
+> 
+> folia NRC (koc termiczny)
+> 
+> 
+> plastry, gaziki, taśmy medyczne
+> 
+> 
+> czasem igła do odbarczania odmy
+
+# RKO 
+RKO - Resuscytacja krążeniowo-oddechowa
+to zespół czynności ratunkowych podejmowanych w przypadku nagłego zatrzymania krążenia (NZK), mających na celu przywrócenie czynności serca i oddychania. 
+
+> U niemowlęcia: 👉 Rytm: 30:2 (1 ratownik) / 15:2 (2 ratowników)
+> 
+> U dziecka: 👉 30 uciśnięć klatki piersiowej (1 ratownik) lub 15 (2 ratowników)
+> 
+> U dorosłego: 👉 30 uciśnięć klatki piersiowej
+║───────────────────────────────────────────────────────────────────────────────────────────────────║
+# Zasady udzielania pierwszej pomocy 💉 
+> 1. 🛡 Zadbaj o własne bezpieczeństwo
+> Sprawdź, czy nic Ci nie grozi (np. ruch uliczny, ogień, prąd, agresor).
+> 
+> 
+> Używaj rękawiczek jednorazowych i chroń się przed kontaktem z krwią.
+> 
+> 
+> Nie narażaj się — ratownik to nie ofiara.
+> 
+> 
+> 
+> 2. 📞 Wezwij pomoc
+> Zadzwoń po służby [ EMS ] 
+> 
+> 
+> Powiedz: kto, gdzie, co się stało, ilu poszkodowanych, jaki jest ich stan.
+> 
+> Prowadź aktywną komunikację radiową z jednostką ratowniczą
+> 
+> 3. 🧍‍♂️ Oceń stan poszkodowanego
+> Czy jest przytomny?
+> 
+> 
+> Tak → rozmawiaj, sprawdź urazy, udziel wsparcia.
+> 
+> 
+> Nie → delikatnie potrząśnij, zapytaj: "Słyszysz mnie?"
+> 
+> 
+> Czy oddycha?
+> 
+> 
+> Tak → ułóż w pozycji bezpiecznej.
+> 
+> 
+> Nie → rozpocznij RKO!
+> 
+> 4. ❤️‍🔥 W razie potrzeby: RKO
+> U dorosłych: 30 uciśnięć / 2 oddechy
+> 
+> 
+> Jeśli nie chcesz lub nie potrafisz dawać oddechów – tylko uciśnięcia.
+> 
+> 
+> Użyj AED, jeśli dostępny.
+> 
+> 5. 🩹 Zabezpiecz urazy
+> Zatrzymaj krwawienie, załóż opatrunek.
+> 
+> 
+> Unieruchom złamania.
+> 
+> 
+> W przypadku oparzeń – chłodź czystą wodą przez 10–15 minut.
+> 
+> 
+> Przy utracie przytomności z oddechem – pozycja boczna bezpieczna.
+> 
+> 
+> 
+> 6. 🧘‍♀️ Zachowaj spokój i wspieraj
+> Twoje opanowanie uspokaja poszkodowanego.
+> 
+> 
+> Mów spokojnym tonem, informuj co robisz.
+> 
+> 
+> Pozostań z poszkodowanym do przyjazdu służb.
+> ! FP ma zakaz podawania poszkodowanemu jakichkolwiek leków
+
+        </p>
+    <br><br>
+
+    <!-- LOGO 2 -->
+    <img src="LSPD_logo.png" alt="LSPD Logo">
+
+    ║───────────────────────────────────────────────────────────────────────────────────────────────────║
+
+    <!-- STOPKA -->
+    <footer>
+        <p>&copy; 2026 Kompendium Wiedzy LSPD. Wszelkie prawa zastrzeżone.</p>
+        <p>
+            Wszystkie treści, materiały i zasoby prezentowane na tej stronie zostały stworzone
+            przez <strong>𝕭𝖊𝖟𝖎𝖚</strong> oraz grono administracji serwera
+            <strong>Kompendium Wiedzy Los Santos Police Department</strong>.
+        </p>
+        <p>
+            Discord:<br>
+            <a href="https://discord.gg/f8SpGvwxFw" target="_blank" style="color:#5a4636; text-decoration:none;">
+                https://discord.gg/f8SpGvwxFw
+            </a>
+        </p>
+    </footer>
+
+</div>
+
+</body>
+</html>
