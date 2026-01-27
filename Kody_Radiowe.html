@@ -57,22 +57,17 @@
             color: white;
         }
 
-        /* Pierwsza tabela: nagłówek szary */
-        .header-kody {
-            background-color: gray;
-        }
+        /* Nagłówki tabel */
+        .header-kody { background-color: gray; }
+        .header-status { background-color: maroon; }
+        .header-cody { background-color: #b8860b; } /* ciemny żółty */
 
-        /* Druga tabela: nagłówek bordowy */
-        .header-status {
-            background-color: maroon;
-        }
-
-        /* Naprzemienne wiersze dla obu tabel */
-        tr:nth-child(odd):not(.header-kody):not(.header-status) {
+        /* Naprzemienne wiersze */
+        tr:nth-child(odd):not(.header-kody):not(.header-status):not(.header-cody) {
             background-color: #0b3d91; /* bardzo ciemnoniebieski */
         }
 
-        tr:nth-child(even):not(.header-kody):not(.header-status) {
+        tr:nth-child(even):not(.header-kody):not(.header-status):not(.header-cody) {
             background-color: black;
         }
     </style>
@@ -106,7 +101,7 @@
     <section>
         <h2>╭━━━ Kody Radiowe ━━━╮</h2>
 
-        <!-- Pierwsza tabela: Kody Dziesiątkowe -->
+        <!-- Tabela 1: Kody Dziesiątkowe -->
         <table>
             <tr class="header-kody">
                 <th colspan="2">Kody Dziesiątkowe</th>
@@ -145,7 +140,7 @@
             <tr><td>10-90</td><td>Napad</td></tr>
         </table>
 
-        <!-- Druga tabela: Statusy -->
+        <!-- Tabela 2: Statusy -->
         <table>
             <tr class="header-status">
                 <th colspan="2">Statusy</th>
@@ -158,6 +153,25 @@
             <tr><td>Status 6</td><td>Powrót do patrolu</td></tr>
             <tr><td>Status 7</td><td>Zatrzymanie poza komendą</td></tr>
             <tr><td>Status 8</td><td>Procedury z zatrzymanym na celach</td></tr>
+        </table>
+
+        <!-- Tabela 3: Cody -->
+        <table>
+            <tr class="header-cody">
+                <th colspan="2">Cody</th>
+            </tr>
+            <tr><td>Code 0</td><td>Zagrożenia funkcjonariusza!</td></tr>
+            <tr><td>Code 1</td><td>Radiowóz bez sygnalizacji świetlnej i dźwiękowej</td></tr>
+            <tr><td>Code 2</td><td>Radiowóz z sygnalizacją świetlna</td></tr>
+            <tr><td>Code 3</td><td>Radiowóz z sygnalizacją świetlna i dżwiękową</td></tr>
+            <tr><td>Code 4</td><td>Zakończenie czynności</td></tr>
+            <tr><td>Code 5</td><td>Jednostka patrolująca dany teren</td></tr>
+            <tr><td>Code 6</td><td>Zatrzymanie drogowe</td></tr>
+            <tr><td>Code 6a</td><td>Zatrzymanie drogowe podwyższonego ryzyka (potrzebne "ciche" wsparcie)</td></tr>
+            <tr><td>Code 6f</td><td>Zatrzymanie drogowe podwyższonego ryzyka (FTS)</td></tr>
+            <tr><td>Code 7</td><td>Człowiek z bronią!</td></tr>
+            <tr><td>Code 8</td><td>Rozgrupowanie funkcjonariuszy na komendzie</td></tr>
+            <tr><td>Code 100</td><td>Cisza na radiu!</td></tr>
         </table>
 
         <p>
