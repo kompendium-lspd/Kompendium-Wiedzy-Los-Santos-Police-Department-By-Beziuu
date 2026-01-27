@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>𝔎𝔬𝔪𝔭𝔢𝔫𝔡𝔦𝔲𝔪 𝔚𝔦𝔢𝔡𝔷𝔶 LSPD</title>
+
     <style>
         body {
             margin: 0;
-            background-color: black;
-            color: white;
+            background-color: #efe6da;
+            color: #2a2420;
             font-family: Arial, sans-serif;
             text-align: center;
         }
@@ -15,7 +16,8 @@
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 30px 20px;
+            background-color: #f6efe7;
         }
 
         img {
@@ -26,51 +28,54 @@
         }
 
         nav a {
-            color: white;
+            color: #3a2f28;
             text-decoration: none;
             margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
         }
 
         section {
             margin-top: 40px;
-        }
-
-        p {
-            max-width: 900px;
-            margin: 20px auto;
-            line-height: 1.6;
+            background-color: #f1e8dd;
+            padding: 30px;
+            border-radius: 8px;
         }
 
         table {
             width: 80%;
-            margin: 40px auto; /* większy odstęp między tabelami */
+            margin: 40px auto;
             border-collapse: collapse;
-            border: 2px solid white;
-            color: white;
+            border: 2px solid #bfae9c;
+            color: #2a2420;
+            background-color: #f7f1ea;
         }
 
         th, td {
             padding: 10px;
-            border: 1px solid white;
+            border: 1px solid #c9b8a6;
         }
 
         th {
             text-align: center;
-            color: white;
+            font-weight: bold;
         }
 
         /* Nagłówki tabel */
-        .header-kody { background-color: gray; }
-        .header-status { background-color: maroon; }
-        .header-cody { background-color: #b8860b; } /* ciemny żółty */
+        .header-kody { background-color: #d8c8b6; }
+        .header-status { background-color: #cbb6a2; }
+        .header-cody { background-color: #bfa883; }
 
         /* Naprzemienne wiersze */
         tr:nth-child(odd):not(.header-kody):not(.header-status):not(.header-cody) {
-            background-color: #0b3d91; /* bardzo ciemnoniebieski */
+            background-color: #efe4d6;
         }
 
         tr:nth-child(even):not(.header-kody):not(.header-status):not(.header-cody) {
-            background-color: black;
+            background-color: #f7f1ea;
         }
 
         h1, h2 {
@@ -79,20 +84,23 @@
 
         footer {
             margin-top: 60px;
+            padding: 25px;
+            background-color: #e6dacb;
+            color: #2a2420;
         }
 
         .section-header {
-            margin-top: 60px;
+            margin-top: 40px;
             margin-bottom: 20px;
         }
     </style>
 </head>
+
 <body>
 
 <div class="container">
 
     ║───────────────────────────────────────────────────────────────────────────────────────────────────║
-
     <br><br>
 
     <!-- LOGO -->
@@ -108,54 +116,53 @@
     <!-- MENU -->
     <nav>
         ║─────────────────────────────────────────────────────────────────────║<br>
-        <a href="index.html">Cofnij</a> 
+        <a href="index.html">Cofnij</a>
         <br>║─────────────────────────────────────────────────────────────────────║
     </nav>
 
-    <!-- WPROWADZENIE -->
     <section>
-        <h2 class="section-header">   ╭━━━ Kody Radiowe ━━━╮</h2>
+        <h2 class="section-header">╭━━━ Kody Radiowe ━━━╮</h2>
 
-        <!-- Tabela 1: Kody Dziesiątkowe -->
+        <!-- KODY DZIESIĄTKOWE -->
         <table>
             <tr class="header-kody">
                 <th colspan="2">Kody Dziesiątkowe</th>
             </tr>
-            <tr><td>10-0</td><td>Podaj Status (Osoba podaje lokalizację oraz czynność którą wykonuje)</td></tr>
-            <tr><td>10-1</td><td>Do wszystkich Jednostek</td></tr>
+            <tr><td>10-0</td><td>Podaj status (lokalizacja i czynność)</td></tr>
+            <tr><td>10-1</td><td>Do wszystkich jednostek</td></tr>
             <tr><td>10-2</td><td>Potwierdzam</td></tr>
             <tr><td>10-3</td><td>Odmawiam</td></tr>
             <tr><td>10-4</td><td>Przyjąłem</td></tr>
             <tr><td>10-5</td><td>W drodze</td></tr>
             <tr><td>10-7</td><td>Wezwanie obywatela</td></tr>
-            <tr><td>10-8</td><td>Potrzebne wsparcie!</td></tr>
+            <tr><td>10-8</td><td>Potrzebne wsparcie</td></tr>
             <tr><td>10-9</td><td>Powtórz komunikat</td></tr>
             <tr><td>10-10</td><td>Dzwonek na recepcji</td></tr>
             <tr><td>10-12</td><td>Teren czysty</td></tr>
-            <tr><td>10-13a</td><td>Rany funkcjonariusz (Na miejscu występuje zagrożenie)</td></tr>
-            <tr><td>10-13b</td><td>Rany funkcjonariusz (Na miejscu nie ma zagrożenie)</td></tr>
+            <tr><td>10-13a</td><td>Ranny funkcjonariusz (zagrożenie)</td></tr>
+            <tr><td>10-13b</td><td>Ranny funkcjonariusz (brak zagrożenia)</td></tr>
             <tr><td>10-14</td><td>Ranny obywatel</td></tr>
             <tr><td>10-20</td><td>Lokalizacja</td></tr>
             <tr><td>10-23</td><td>Na miejscu</td></tr>
-            <tr><td>10-31</td><td>Handel Narkotykami</td></tr>
-            <tr><td>10-43</td><td>Powołanie jednostek specjalnych (SWAT)</td></tr>
+            <tr><td>10-31</td><td>Handel narkotykami</td></tr>
+            <tr><td>10-43</td><td>Powołanie SWAT</td></tr>
             <tr><td>10-50</td><td>Kolizja funkcjonariusza</td></tr>
-            <tr><td>10-52</td><td>Osoba uciekła! (CL)</td></tr>
+            <tr><td>10-52</td><td>Osoba uciekła (CL)</td></tr>
             <tr><td>10-55</td><td>Kolizja obywatela</td></tr>
-            <tr><td>10-61</td><td>Proszę o autoryzację o...</td></tr>
-            <tr><td>10-62</td><td>Udzielam autoryzacji</td></tr>
+            <tr><td>10-61</td><td>Prośba o autoryzację</td></tr>
+            <tr><td>10-62</td><td>Autoryzacja udzielona</td></tr>
             <tr><td>10-71</td><td>Padły strzały</td></tr>
-            <tr><td>10-72</td><td>Pojazd z nadajnikiem (Tracker)</td></tr>
-            <tr><td>10-73</td><td>Włamanie do mieszkania</td></tr>
+            <tr><td>10-72</td><td>Pojazd z trackerem</td></tr>
+            <tr><td>10-73</td><td>Włamanie</td></tr>
             <tr><td>10-75</td><td>Interwencja własna</td></tr>
             <tr><td>10-80</td><td>Rozpoczynam pościg</td></tr>
-            <tr><td>10-81</td><td>Pościg zakończony powodzeniem</td></tr>
-            <tr><td>10-82</td><td>Pościg zakończony niepowodzeniem</td></tr>
+            <tr><td>10-81</td><td>Pościg zakończony</td></tr>
+            <tr><td>10-82</td><td>Pościg nieudany</td></tr>
             <tr><td>10-83</td><td>Pościg wznowiony</td></tr>
             <tr><td>10-90</td><td>Napad</td></tr>
         </table>
 
-        <!-- Tabela 2: Statusy -->
+        <!-- STATUSY -->
         <table>
             <tr class="header-status">
                 <th colspan="2">Statusy</th>
@@ -163,48 +170,45 @@
             <tr><td>Status 1</td><td>Rozpoczęcie służby</td></tr>
             <tr><td>Status 2</td><td>Przerwa</td></tr>
             <tr><td>Status 3</td><td>Zakończenie służby</td></tr>
-            <tr><td>Status 4</td><td>Jednostka wolna (oczekuje na pobranie)</td></tr>
+            <tr><td>Status 4</td><td>Jednostka wolna</td></tr>
             <tr><td>Status 5</td><td>Rozpoczęcie patrolu</td></tr>
             <tr><td>Status 6</td><td>Powrót do patrolu</td></tr>
             <tr><td>Status 7</td><td>Zatrzymanie poza komendą</td></tr>
-            <tr><td>Status 8</td><td>Procedury z zatrzymanym na celach</td></tr>
+            <tr><td>Status 8</td><td>Cele</td></tr>
         </table>
 
-        <!-- Tabela 3: Cody -->
+        <!-- CODY -->
         <table>
             <tr class="header-cody">
                 <th colspan="2">Cody</th>
             </tr>
-            <tr><td>Code 0</td><td>Zagrożenia funkcjonariusza!</td></tr>
-            <tr><td>Code 1</td><td>Radiowóz bez sygnalizacji świetlnej i dźwiękowej</td></tr>
-            <tr><td>Code 2</td><td>Radiowóz z sygnalizacją świetlna</td></tr>
-            <tr><td>Code 3</td><td>Radiowóz z sygnalizacją świetlna i dżwiękową</td></tr>
-            <tr><td>Code 4</td><td>Zakończenie czynności</td></tr>
-            <tr><td>Code 5</td><td>Jednostka patrolująca dany teren</td></tr>
+            <tr><td>Code 0</td><td>Zagrożenie funkcjonariusza</td></tr>
+            <tr><td>Code 1</td><td>Bez sygnałów</td></tr>
+            <tr><td>Code 2</td><td>Światła</td></tr>
+            <tr><td>Code 3</td><td>Światła i dźwięk</td></tr>
+            <tr><td>Code 4</td><td>Koniec działań</td></tr>
+            <tr><td>Code 5</td><td>Patrol</td></tr>
             <tr><td>Code 6</td><td>Zatrzymanie drogowe</td></tr>
-            <tr><td>Code 6a</td><td>Zatrzymanie drogowe podwyższonego ryzyka (potrzebne "ciche" wsparcie)</td></tr>
-            <tr><td>Code 6f</td><td>Zatrzymanie drogowe podwyższonego ryzyka (FTS)</td></tr>
-            <tr><td>Code 7</td><td>Człowiek z bronią!</td></tr>
-            <tr><td>Code 8</td><td>Rozgrupowanie funkcjonariuszy na komendzie</td></tr>
-            <tr><td>Code 100</td><td>Cisza na radiu!</td></tr>
+            <tr><td>Code 6a</td><td>Zatrzymanie wysokiego ryzyka</td></tr>
+            <tr><td>Code 6f</td><td>Zatrzymanie FTS</td></tr>
+            <tr><td>Code 7</td><td>Osoba z bronią</td></tr>
+            <tr><td>Code 8</td><td>Zbiórka na komendzie</td></tr>
+            <tr><td>Code 100</td><td>Cisza na radiu</td></tr>
         </table>
 
     </section>
 
-    <!-- LOGO -->
     <br><br>
-    <img src="LSPD_logo.png" alt="image">
+    <img src="LSPD_logo.png" alt="LSPD">
 
-    <header>
-        ║───────────────────────────────────────────────────────────────────────────────────────────────────║<br>
-    </header>
-
-    <!-- STOPKA -->
-    <footer style="text-align: center; color: white; margin-top: 50px; padding: 20px; background-color: black; font-family: Arial, sans-serif;">
+    <footer>
         <p>&copy; 2026 Kompendium Wiedzy LSPD. Wszelkie prawa zastrzeżone.</p>
-        <p>Wszystkie treści, materiały i zasoby prezentowane na tej stronie zostały stworzone przez <strong>𝕭𝖊𝖟𝖎𝖚</strong> oraz grono administracji serwera <strong>Kompendium Wiedzy Los Santos Police Department</strong> i są chronione prawami autorskimi. Kopiowanie, powielanie lub wykorzystywanie zawartości bez zgody właściciela jest zabronione.</p>
-        <p>Wszelkie pytania dotyczące praw autorskich lub treści znajdujących się na stronie prosimy kierować na nasz Discord: 
-            <a href="https://discord.gg/f8SpGvwxFw" target="_blank" style="color: #7289da; text-decoration: none;">https://discord.gg/f8SpGvwxFw</a>
+        <p>Autor: <strong>𝕭𝖊𝖟𝖎𝖚</strong> • Los Santos Police Department</p>
+        <p>
+            Discord:<br>
+            <a href="https://discord.gg/f8SpGvwxFw" target="_blank" style="color:#5a4636; text-decoration:none;">
+                https://discord.gg/f8SpGvwxFw
+            </a>
         </p>
     </footer>
 
