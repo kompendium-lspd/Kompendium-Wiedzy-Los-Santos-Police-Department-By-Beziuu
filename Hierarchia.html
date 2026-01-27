@@ -7,16 +7,17 @@
     <style>
         body {
             margin: 0;
-            background-color: black;
-            color: white;
+            background-color: #efe6da; /* jasny brąz */
+            color: #2a2420;
             font-family: Arial, sans-serif;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 30px 20px;
             text-align: center;
+            background-color: #f6efe7;
         }
 
         img {
@@ -25,40 +26,52 @@
         }
 
         nav a {
-            color: white;
+            color: #3a2f28;
             text-decoration: none;
             margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
         }
 
         section {
             margin-top: 40px;
-        }
-
-        iframe {
-            display: block;
-            margin: 30px auto;
-            max-width: 100%;
+            background-color: #f1e8dd;
+            padding: 20px;
+            border-radius: 8px;
         }
 
         .hierarchy-box {
             max-width: 600px;
             margin: 20px auto;
             padding: 20px;
-            border: 2px solid white;
-            text-align: center;
+            border: 2px solid #c9b9a6;
             border-radius: 10px;
+            background-color: #f7f1ea;
         }
 
         .hierarchy-section {
-            background-color: #0b3d91;
-            color: white;
+            background-color: #d8c8b4; /* jasny brąz */
+            color: #2a2420;
             padding: 10px;
             font-weight: bold;
-            margin-top: 10px;
+            margin-top: 15px;
+            border-radius: 5px;
         }
 
         .hierarchy-item {
-            margin: 5px 0;
+            margin: 6px 0;
+        }
+
+        footer {
+            text-align: center;
+            color: #2a2420;
+            margin-top: 60px;
+            padding: 25px;
+            background-color: #e6dacb;
+            font-family: Arial, sans-serif;
         }
     </style>
 </head>
@@ -84,7 +97,7 @@
     <!-- MENU -->
     <nav>
         ║─────────────────────────────────────────────────────────────────────║<br>
-        <a href="index.html">Cofnij</a> 
+        <a href="index.html">Cofnij</a>
         <br>║─────────────────────────────────────────────────────────────────────║
     </nav>
 
@@ -93,23 +106,20 @@
         <h2>╭━━━ Hierarchia ━━━╮</h2>
 
         <div class="hierarchy-box">
-            <!-- High Command -->
+
             <div class="hierarchy-section">High Command</div>
             <div class="hierarchy-item">Chief Of Police</div>
             <div class="hierarchy-item">Assistant Chief Of Police</div>
             <div class="hierarchy-item">Deputy Chief Of Police</div>
 
-            <!-- Command -->
             <div class="hierarchy-section">Command</div>
             <div class="hierarchy-item">Commander</div>
             <div class="hierarchy-item">Deputy Commander</div>
 
-            <!-- Leadership -->
             <div class="hierarchy-section">Leadership</div>
             <div class="hierarchy-item">Capitan II</div>
             <div class="hierarchy-item">Capitan I</div>
 
-            <!-- Patrol Division -->
             <div class="hierarchy-section">Patrol Division</div>
             <div class="hierarchy-item">Lieutenant II</div>
             <div class="hierarchy-item">Lieutenant I</div>
@@ -120,26 +130,30 @@
             <div class="hierarchy-item">Officer III</div>
             <div class="hierarchy-item">Officer II</div>
             <div class="hierarchy-item">Officer I</div>
-            <div class="hierarchy-item">Cader</div>
+            <div class="hierarchy-item">Cadet</div>
         </div>
-
     </section>
 
     <br><br>
 
     <!-- LOGO 2 -->
-    <img src="LSPD_logo.png" alt="image">
+    <img src="LSPD_logo.png" alt="LSPD Logo">
 
-    <header>
-        ║───────────────────────────────────────────────────────────────────────────────────────────────────║<br>
-    </header>
+    ║───────────────────────────────────────────────────────────────────────────────────────────────────║
 
     <!-- STOPKA -->
-    <footer style="text-align: center; color: white; margin-top: 50px; padding: 20px; background-color: black; font-family: Arial, sans-serif;">
+    <footer>
         <p>&copy; 2026 Kompendium Wiedzy LSPD. Wszelkie prawa zastrzeżone.</p>
-        <p>Wszystkie treści, materiały i zasoby prezentowane na tej stronie zostały stworzone przez <strong>𝕭𝖊𝖟𝖎𝖚</strong> oraz grono administracji serwera <strong>Kompendium Wiedzy Los Santos Police Department</strong> i są chronione prawami autorskimi. Kopiowanie, powielanie lub wykorzystywanie zawartości bez zgody właściciela jest zabronione.</p>
-        <p>Wszelkie pytania dotyczące praw autorskich lub treści znajdujących się na stronie prosimy kierować na nasz Discord: 
-            <a href="https://discord.gg/f8SpGvwxFw" target="_blank" style="color: #7289da; text-decoration: none;">https://discord.gg/f8SpGvwxFw</a>
+        <p>
+            Wszystkie treści, materiały i zasoby prezentowane na tej stronie zostały stworzone
+            przez <strong>𝕭𝖊𝖟𝖎𝖚</strong> oraz grono administracji serwera
+            <strong>Kompendium Wiedzy Los Santos Police Department</strong>.
+        </p>
+        <p>
+            Discord:<br>
+            <a href="https://discord.gg/f8SpGvwxFw" target="_blank" style="color:#5a4636; text-decoration:none;">
+                https://discord.gg/f8SpGvwxFw
+            </a>
         </p>
     </footer>
 
