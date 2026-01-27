@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>𝔎𝔬𝔪𝔭𝔢𝔫𝔡𝔦𝔲𝔪 𝔚𝔦𝔢𝔡𝔷𝔶 LSPD</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #efe6da;
+            color: #2a2420;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            text-align: center;
+            background-color: #f6efe7;
+        }
+
+        img {
+            max-width: 450px;
+            height: auto;
+        }
+
+        nav a {
+            color: #3a2f28;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-top: 40px;
+            background-color: #f1e8dd;
+            padding: 25px;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            color: #2a2420;
+            margin-top: 60px;
+            padding: 25px;
+            background-color: #e6dacb;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    ║───────────────────────────────────────────────────────────────────────────────────────────────────║
+    <br><br>
+
+    <!-- LOGO -->
+    <img src="kompendium_lspd.png" alt="Kompendium LSPD">
+
+    <header>
+        <h1>╔════≫──────๑ Kompendium Wiedzy LSPD ๑──────≪════╗</h1>
+        ║───────────────────────────────────────────────────────────────────────────────────────────────────║
+    </header>
+
+    <br>
+
+    <!-- MENU -->
+    <nav>
+        ║─────────────────────────────────────────────────────────────────────║<br>
+        <a href="index.html">Cofnij</a>
+        <br>║─────────────────────────────────────────────────────────────────────║
+    </nav>
+
+    <!-- JEDNOSTKI POŚCIGOWE -->
+    <section>
+        <h2>╭━━━ Kody Pościgowe ━━━╮</h2>
+
+ <p>
+            <b>➔ Kody Pościgowe</b><br><br>
+ ➔ Kod czarny ⚫﻿ - Kod wyjątkowy. W tym momencie funkcjonariusze używają wszelkich dostępnych środków do zatrzymania uciekiniera, również w ostateczności broni palnej. Nakładamy go w momencie, gdy uciekający stwarza bezpośrednie zagrożenie dla funkcjonariuszy, bądź obywateli. Przykładem może być użycie broni w kierunku funkcjonariuszy. 
+﻿
+➔Kod czerwony 🔴﻿ - Jeden z wyższych kodów. W tym momencie pościg nabiera wysoki priorytet aresztowania uciekającego.  Nakładany jest na uciekającego poprzez:  - 10 minutowy i wzwyż pościg - Wielokrotne złamanie przepisów drogowych - Bezpośrednie stwarzanie zagrożenia w ruchu lądowym - Wszelkiego rodzaju przesiadki - Jeżeli mamy pewność iż w środku znajduje się porwana osoba - Osoba uciekająca porusza się skradzionym pojazdem frakcyjnym - Bądź inne podane powody przez SV. Warunki muszą być spełnione minimum 3, razem + trwanie pościgu. Kod ten zezwala na wykonywanie wszelkich manewrów w kierunku uciekającego. Oczywiście za autoryzacją SV
+﻿
+➔ Kod żółty 🟡﻿ - Kod zagrożenia pościgu niższego stopnia. Nakładamy go, gdy: - Uciekający ucieka od około 5 minut - Licznie przekracza dozwoloną prędkość - Wykonuje gwałtowne manewry pojazdem, powodując zagrożenie w ruchu lądowym 
+ 
+Ulatujące się groźby w kierunku funkcjonariuszy, lub obywateli - Liczne łamanie praw ruchu lądowego itp. Kod ten zezwala na podstawowe manewry; typu - pit, nieruchoma. Aczkolwiek wszystko zależy od SV akcji.
+﻿
+➔ Kod zielony 🟢﻿ - Najniższy kod pościgowy. Z tym kodem powinien ruszać każdy pościg ( o ile nie ma innych wytycznych na mieście, bądź SV nie wytyczył konsekwencji podczas przykładowych  negocjacji ). Kod ten nie nakłada SV, gdyż jest od nakładany automatycznie, jedynie SV może go wznieść. Kod ten pozwala na wykonywanie manewru podstawowego typu: Nieruchoma. Aczkolwiek tak jak we wszystkich. Manewry zależą od SV i jego autoryzacji
+        </p>
+
+        <br>
+
+        ║─────────────────────────────────────────────────────────────────────║<br>
+
+        <img src="radio.png" alt="Jednostki pościgowe">
+
+        <br>
+
+        ║─────────────────────────────────────────────────────────────────────║<br>
+    </section>
+
+    <!-- STOPKA -->
+    <footer>
+        <p>&copy; 2026 Kompendium Wiedzy LSPD. Wszelkie prawa zastrzeżone.</p>
+        <p>
+            Wszystkie treści, materiały i zasoby prezentowane na tej stronie zostały stworzone
+            przez <strong>𝕭𝖊𝖟𝖎𝖚</strong> oraz grono administracji serwera
+            <strong>Kompendium Wiedzy Los Santos Police Department</strong>.
+        </p>
+        <p>
+            Discord:<br>
+            <a href="https://discord.gg/f8SpGvwxFw" target="_blank" style="color:#5a4636; text-decoration:none;">
+                https://discord.gg/f8SpGvwxFw
+            </a>
+        </p>
+    </footer>
+
+</div>
+
+</body>
+</html>
